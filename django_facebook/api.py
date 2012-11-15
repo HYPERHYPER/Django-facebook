@@ -226,7 +226,7 @@ class FacebookUserConverter(object):
     def __init__(self, open_facebook):
         from open_facebook.api import OpenFacebook
         self.open_facebook = open_facebook
-        assert isinstance(open_facebook, OpenFacebook)
+#        assert isinstance(open_facebook, OpenFacebook)
         self._profile = None
 
     def is_authenticated(self):
